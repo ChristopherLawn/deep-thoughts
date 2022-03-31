@@ -1,4 +1,4 @@
 # Deep Thoughts
 
 ## Description
-***Description coming soon!***
+A pensive social networking site!
