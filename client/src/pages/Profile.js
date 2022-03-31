@@ -15,6 +15,7 @@ const Profile = () => {
   });
   const user = data?.me || data?.user || {};
   const [addFriend] = useMutation(ADD_FRIEND);
+  // const loggedIn = Auth.loggedIn();
 
   // redirect to personal profile page if username is the logged-in user's
   if (Auth.loggedIn() && Auth.getProfile().data.username === userParam) {
@@ -50,7 +51,7 @@ const Profile = () => {
           Viewing {userParam ? `${user.username}'s` : 'your'} profile.
         </h2>
 
-        {userParam && (
+        {userParam && Auth.loggedIn() && (
           <button className="btn ml-auto" onClick={handleClick}>
             Add Friend
           </button>
