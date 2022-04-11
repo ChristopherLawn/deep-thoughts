@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/ChristopherLawn/deep-thoughts/issues"
   },
-  "homepage": "https://github.com/ChristopherLawn/deep-thoughts#readme",
+  "homepage": "https://github.com/ChristopherLawn/deep-thoughts",
   "devDependencies": {
     "concurrently": "^7.0.0"
   },
